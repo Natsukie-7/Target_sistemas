@@ -10,7 +10,7 @@
 
 # IMPRIMIR SOMA
 
-# Em resumo, é so fazer a soma usando um loop
+# Em resumo, é so fazer a soma usando um loop.
 
 indice, soma, k = 13, 0, 0
 
