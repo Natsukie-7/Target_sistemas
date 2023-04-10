@@ -20,7 +20,7 @@ def fibonacci(numero_a_verificar): # essa função ira me gerar a sequencia de f
 
     return lista_fibonacci
 
-        
+
 def verifique_na_lista(numero_a_verificar): # essa ira verificar se o numero esta ou não na lista
     validacao = numero_a_verificar in fibonacci(numero_a_verificar)
 
@@ -32,9 +32,9 @@ def main():
         valor = input('Qual o valor gostaria de verificar: ')
         if valor != '':
             print(verifique_na_lista(int(valor)))
-        
+
         else:
             break
-    
+
 
 main()
